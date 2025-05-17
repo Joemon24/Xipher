@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- AlertDialog Theme Overlay -->
+    <style name="ThemeOverlay.Session.AlertDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- TabLayout Widget -->
+    <style name="Widget.Session.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabSelectedTextColor">@color/colorPrimary</item>
+    </style>
+
+    <!-- ActionBar Widget -->
+    <style name="Widget.Session.ActionBar" parent="Widget.MaterialComponents.ActionBar.Solid">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/TextAppearance.MaterialComponents.Headline6</item>
+    </style>
+
+    <!-- BottomSheetDialog Widget -->
+    <style name="Widget.Session.BottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MaterialComponents.BottomSheet</item>
+    </style>
+<style name="Widget.Session.ActionBar.Flat" parent="Widget.AppCompat.ActionBar">
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:elevation">0dp</item>
+    <item name="android:popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+</style>
+</resources>
