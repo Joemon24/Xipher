@@ -1,3 +1,5 @@
+
+
 plugins {
     id 'com.google.devtools.ksp'
     id 'com.google.dagger.hilt.android'
@@ -418,7 +420,8 @@ def autoResConfig() {
     def root = file("src/main/res")
     root.eachFile { f -> files.add(f.name) }
     ['en'] + files.collect { f -> f =~ /^values-([a-z]{2}(-r[A-Z]{2})?)$/ }
-         .findAll { matcher -> matcher.find() }
-         .collect { matcher -> matcher.group(1) }
-         .sort()
+            .findAll { matcher -> matcher.find() }
+            .collect { matcher -> matcher.group(1) }
+            .sort()
 }
+
