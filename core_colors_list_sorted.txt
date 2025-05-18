@@ -1,0 +1,17 @@
+core_black
+core_blue
+core_grey_02
+core_grey_05
+core_grey_15
+core_grey_25
+core_grey_35
+core_grey_45
+core_grey_60
+core_grey_65
+core_grey_75
+core_grey_77
+core_grey_85
+core_grey_90
+core_grey_95
+core_red
+core_white

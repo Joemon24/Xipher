@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-   <style name="Base.Theme.Session" parent="@style/Theme.AppCompat.DayNight">
+   <style name="Base.Theme.Session" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
        <item name="actionModeBackground">?colorPrimary</item>
        <item name="android:colorBackground">?colorPrimary</item>
        <item name="backgroundSecondary">@color/classic_dark_1</item>

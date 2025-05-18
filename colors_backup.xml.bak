@@ -8,6 +8,11 @@
     <color name="transparent_black">#00000000</color>
 
     <!-- Core Colors (added to resolve references) -->
+    <color name="core_white">#FFFFFFFF</color>
+    <color name="core_grey_95">#F2F2F2</color>
+    <color name="core_grey_60">#999999</color>
+    <color name="core_grey_45">#737373</color>
+    <color name="core_grey_25">#404040</color>
 
     <!-- Accent Colors (added to resolve references) -->
     <color name="accent_green">#31F196</color>
@@ -80,6 +85,7 @@
     <color name="avatar_background">@color/transparent_black_90</color>
 
     <!-- Primary & Ripple -->
+    <color name="inverse_primary">@color/core_white</color>
     <color name="button_primary_ripple">@color/transparent_black_15</color>
 
     <!-- Reactions Screen -->
@@ -87,6 +93,11 @@
     <color name="reactions_screen_light_shade_color">#DF5E5E5E</color>
 
     <!-- Signal Colors -->
+    <color name="signal_background_primary">@color/core_grey_95</color>
+    <color name="text_primary_disabled">@color/core_grey_60</color>
+    <color name="signal_icon_tint_tab_selected">@color/core_white</color>
+    <color name="signal_text_secondary">@color/core_grey_25</color>
+    <color name="signal_button_secondary_text_disabled">@color/core_grey_45</color>
 
     <!-- Misc -->
     <color name="react_with_any_background">?colorPrimary</color> <!-- Theme attribute reference -->
@@ -137,20 +148,8 @@
     <!-- Material Colors -->
     <color name="colorPrimary">#6200EE</color>         <!-- Purple 500 -->
     <color name="colorPrimaryDark">#3700B3</color>     <!-- Purple 700 -->
-    <color name="colorAccent">#FF5722</color>          <!-- Deep Orange 500 -->
-
+    <color name="colorAccent">#FF5722</color> <!-- Deep Orange 500 -->
     <!-- Other -->
     <color name="outdated_client_banner_background_color">#00F782</color>
-    <color name="text_primary_disabled">#FF888888</color>
-    <color name="inverse_primary">#FFFFFFFF</color>
-    <color name="signal_icon_tint_tab_selected">#FF007AFF</color>
-    <color name="signal_text_secondary">#FF666666</color>
-    <color name="signal_background_primary">#FF0000</color> <!-- example red -->
-    <color name="signal_button_secondary_text_disabled">#B0B0B0</color>
-
-    <!-- Removed duplicates at the end -->
-
-    <color name="colorBackground">#FFFFFF</color>
-    <color name="colorTextPrimary">#000000</color>
 
 </resources>
