@@ -89,7 +89,7 @@
     <!-- Signal Colors -->
 
     <!-- Misc -->
-    <color name="react_with_any_background">?colorPrimary</color> <!-- Theme attribute reference -->
+    <color name="react_with_any_background">#C12626</color> <!-- Theme attribute reference -->
 
     <color name="classic_accent">#31F196</color>
 

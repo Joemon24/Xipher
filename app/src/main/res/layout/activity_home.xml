@@ -51,7 +51,9 @@
                     android:layout_toLeftOf="@+id/searchViewContainer"
                     android:layout_toRightOf="@+id/profileButton"
                     android:scaleType="centerInside"
-                    android:src="@drawable/ic_session"
+                    android:scaleX="2.5"
+                    android:scaleY="1.6"
+                    android:src="@drawable/xipher_text_loogo"
                     app:tint="?sessionLogoTint" />
 
                 <RelativeLayout
@@ -106,18 +108,19 @@
                 android:id="@+id/configOutdatedView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <TextView
-                    android:layout_gravity="center"
-                    android:textColor="?message_sent_text_color"
-                    android:background="?colorAccent"
-                    android:textSize="11sp"
-                    android:paddingVertical="4dp"
-                    android:paddingHorizontal="64dp"
-                    android:gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="?colorAccent"
+                    android:gravity="center"
+                    android:paddingHorizontal="64dp"
+                    android:paddingVertical="4dp"
                     android:text="@string/deleteAfterGroupFirstReleaseConfigOutdated"
-                    />
+                    android:textColor=" #121212"
+                    android:textColorLink="#DC143C"
+                    android:textSize="11sp" />
                 <ImageView
                     android:layout_margin="@dimen/small_spacing"
                     android:layout_gravity="center_vertical|right"
@@ -166,14 +169,15 @@
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/newConversationButton"
-            android:contentDescription="@string/AccessibilityId_conversationsNew"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="@dimen/new_conversation_button_bottom_offset"
-            app:rippleColor="@color/button_primary_ripple"
-            android:src="@drawable/ic_plus" />
+            android:contentDescription="@string/AccessibilityId_conversationsNew"
+            android:src="@drawable/ic_plus"
+            app:backgroundTint="#DC143C "
+            app:rippleColor="@color/button_primary_ripple" />
 
     </RelativeLayout>
 
