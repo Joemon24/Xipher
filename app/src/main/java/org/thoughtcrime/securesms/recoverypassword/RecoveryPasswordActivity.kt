@@ -15,7 +15,7 @@ class RecoveryPasswordActivity : BaseActionBarActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        supportActionBar!!.title = resources.getString(R.string.sessionRecoveryPassword)
+        supportActionBar?.title = getString(R.string.sessionRecoveryPassword)
 
         setComposeContent {
             val mnemonic by viewModel.mnemonic.collectAsState("")

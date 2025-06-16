@@ -31,7 +31,7 @@
     <style name="TextAppearance.Xipher.Dialog.Message" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textSize">@dimen/small2_font_size</item>
     </style>
-
+123
     <style name="ThemeOverlay.Xipher.AlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
         <item name="android:windowBackground">@drawable/default_dialog_background_inset</item>
         <item name="android:colorBackground">?backgroundSecondary</item>

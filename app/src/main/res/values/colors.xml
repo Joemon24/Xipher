@@ -135,8 +135,9 @@
     <color name="danger_light">#E12D19</color>
 
     <!-- Material Colors -->
-    <color name="colorPrimary">#6200EE</color>         <!-- Purple 500 -->
-    <color name="colorPrimaryDark">#3700B3</color>     <!-- Purple 700 -->
+    <color name="colorPrimary">#121212</color> <!-- Dark gray -->
+    <color name="colorPrimaryDark">#121212</color> <!-- Dark gray -->
+    <!-- Update this to match or complement -->
     <color name="colorAccent">#FF5722</color>          <!-- Deep Orange 500 -->
 
     <!-- Other -->

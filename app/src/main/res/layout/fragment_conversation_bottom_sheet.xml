@@ -20,10 +20,11 @@
     <TextView
         android:id="@+id/copyConversationId"
         style="@style/BottomSheetActionItem"
+        android:layout_height="wrap_content"
         android:drawableStart="@drawable/ic_copy"
         android:drawableTint="?attr/colorControlNormal"
-        android:visibility="visible"
-        android:text="@string/accountIDCopy" />
+        android:text="@string/accountIDCopy"
+        android:visibility="visible" />
 
     <TextView
         android:id="@+id/copyCommunityUrl"

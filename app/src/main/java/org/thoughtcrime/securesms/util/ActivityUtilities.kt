@@ -19,7 +19,7 @@ import org.session.libsession.utilities.TextSecurePreferences.Companion.OCEAN_LI
 import org.thoughtcrime.securesms.BaseActionBarActivity
 
 fun BaseActionBarActivity.setUpActionBarSessionLogo(hideBackButton: Boolean = false) {
-    val actionbar = supportActionBar!!
+    val actionbar = supportActionBar ?: return
 
     actionbar.setDisplayShowHomeEnabled(false)
     actionbar.setDisplayShowTitleEnabled(false)

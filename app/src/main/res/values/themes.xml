@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
    <style name="Base.Theme.Session" parent="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-       <item name="actionModeBackground">?colorPrimary</item>
-       <item name="android:colorBackground">?colorPrimary</item>
+       <item name="actionModeBackground">@color/action_bar_background</item>
+       <item name="android:colorBackground">@color/action_bar_background</item>
        <item name="backgroundSecondary">@color/classic_dark_1</item>
        <item name="theme_preview_incoming">?message_received_background_color</item>
        <item name="theme_preview_outgoing">?message_sent_background_color</item>
-       <item name="theme_preview_background">?colorPrimary</item>
+       <item name="theme_preview_background">#00000000</item>
        <item name="theme_preview_border">?input_bar_border</item>
        <item name="theme_type">dark</item>
        <item name="android:preferenceLayoutChild">@layout/preference_divider</item>
@@ -16,7 +16,7 @@
        <item name="reactionsPillNormalBackground">?message_received_background_color</item>
        <item name="reactionsPillNormalTextColor">?android:textColorTertiary</item>
        <item name="colorDividerBackground">@color/gray50</item>
-       <item name="colorPrimaryVariant">?colorPrimary</item>
+       <item name="colorPrimaryVariant">#00000000</item>
        <item name="bottomSheetDialogTheme">@style/Theme.Session.BottomSheet</item>
        <item name="android:backgroundDimEnabled">true</item>
        <item name="android:backgroundDimAmount">0.6</item>
@@ -25,7 +25,7 @@
        <item name="android:alertDialogTheme">@style/ThemeOverlay.Session.AlertDialog</item>
        <item name="alertDialogTheme">@style/ThemeOverlay.Session.AlertDialog</item>
        <item name="conversationMenuSearchTintColor">?android:textColorPrimary</item>
-       <item name="conversation_menu_background_color">?colorPrimary</item>
+       <item name="conversation_menu_background_color">#00000000</item>
        <item name="android:colorControlNormal">?android:textColorPrimary</item>
        <item name="conversation_menu_border_color">?colorDividerBackground</item>
        <item name="preferenceTheme">@style/PreferenceThemeOverlay.Fix.Settings</item>
@@ -279,16 +279,16 @@
 
     <style name="Dark.Popup" parent="@style/ThemeOverlay.AppCompat.Dark">
         <item name="android:actionMenuTextColor">?android:textColorPrimary</item>
-        <item name="colorBackgroundFloating">?colorPrimary</item>
-        <item name="android:colorBackground">?colorPrimary</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="colorBackgroundFloating">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:windowBackground">#000000</item>
     </style>
 
     <style name="Light.Popup" parent="@style/ThemeOverlay.AppCompat.Light">
         <item name="android:actionMenuTextColor">?android:textColorPrimary</item>
-        <item name="colorBackgroundFloating">?colorPrimary</item>
-        <item name="android:colorBackground">?colorPrimary</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="colorBackgroundFloating">#000000</item>
+        <item name="android:colorBackground">#000000</item>
+        <item name="android:windowBackground">#000000</item>
     </style>
 
     <style name="Classic">
@@ -322,7 +322,7 @@
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">@color/gray27</item>
         <item name="textColorAlert">@color/classic_dark_6</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="android:windowBackground">#000000</item>
         <item name="android:navigationBarColor">@color/navigation_bar</item>
         <item name="bottomSheetDialogTheme">@style/Classic.Dark.BottomSheet</item>
         <item name="actionMenuTextColor">?android:textColorPrimary</item>
@@ -404,7 +404,7 @@
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">@color/gray27</item>
         <item name="textColorAlert">@color/classic_light_0</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="android:windowBackground">#000000</item>
         <item name="android:navigationBarColor">@color/classic_light_navigation_bar</item>
         <item name="colorCellBackground">@color/classic_light_6</item>
         <item name="colorDividerBackground">@color/classic_light_3</item>
@@ -426,12 +426,12 @@
 
         <!-- Light mode -->
         <item name="theme_type">light</item>
-        <item name="android:colorBackgroundFloating">?colorPrimary</item>
+        <item name="android:colorBackgroundFloating">#000000</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">true</item>
         <item name="isLightTheme">true</item>
         <item name="android:isLightTheme" tools:targetApi="Q">true</item>
-        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="android:statusBarColor">#000000</item>
 
         <!-- Home screen -->
         <item name="searchBackgroundColor">@color/classic_light_4</item>
@@ -494,7 +494,7 @@
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">@color/ocean_dark_5</item>
         <item name="textColorAlert">@color/ocean_dark_7</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="android:windowBackground">#000000</item>
         <item name="android:navigationBarColor">@color/navigation_bar</item>
         <item name="colorCellBackground">@color/ocean_dark_3</item>
         <item name="colorDividerBackground">@color/ocean_dark_4</item>
@@ -555,11 +555,11 @@
         <item name="input_bar_button_text_color">@color/ocean_dark_7</item>
         <item name="input_bar_button_background_opaque">@color/ocean_dark_4</item>
         <item name="input_bar_button_background_opaque_border">@color/ocean_dark_2</item>
-        <item name="input_bar_lock_view_background">?colorPrimary</item>
-        <item name="input_bar_lock_view_border">?colorPrimary</item>
+        <item name="input_bar_lock_view_background">#000000</item>
+        <item name="input_bar_lock_view_border">#000000</item>
         <item name="mention_candidates_view_background">@color/ocean_dark_2</item>
         <item name="scroll_to_bottom_button_background">@color/ocean_dark_4</item>
-        <item name="scroll_to_bottom_button_border">?colorPrimary</item>
+        <item name="scroll_to_bottom_button_border">#000000</item>
         <item name="message_selected">@color/ocean_dark_1</item>
 
     </style>
@@ -580,7 +580,7 @@
         <item name="android:textColorHint">@color/ocean_light_6</item>
         <item name="textColorAlert">@color/ocean_light_0</item>
         <item name="android:navigationBarColor">@color/ocean_light_navigation_bar</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="android:windowBackground">#000000</item>
         <item name="colorCellBackground">@color/ocean_light_5</item>
         <item name="colorDividerBackground">@color/ocean_light_3</item>
         <item name="android:colorControlHighlight">@color/ocean_light_4</item>
@@ -601,12 +601,12 @@
 
         <!-- Light mode -->
         <item name="theme_type">light</item>
-        <item name="android:colorBackgroundFloating">?colorPrimary</item>
+        <item name="android:colorBackgroundFloating">#000000</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar" tools:targetApi="O_MR1">true</item>
         <item name="isLightTheme">true</item>
         <item name="android:isLightTheme" tools:targetApi="Q">true</item>
-        <item name="android:statusBarColor">?colorPrimary</item>
+        <item name="android:statusBarColor">#000000</item>
 
 
         <item name="searchBackgroundColor">@color/ocean_light_5</item>
@@ -670,7 +670,7 @@
         <item name="android:textColorTertiary">@color/classic_dark_5</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:textColorHint">@color/gray27</item>
-        <item name="android:windowBackground">?colorPrimary</item>
+        <item name="android:windowBackground">#000000</item>
         <item name="android:navigationBarColor">@color/compose_view_background</item>
         <item name="bottomSheetDialogTheme">@style/Classic.Dark.BottomSheet</item>
         <item name="actionMenuTextColor">?android:textColorPrimary</item>

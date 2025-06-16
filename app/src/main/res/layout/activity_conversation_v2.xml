@@ -17,7 +17,7 @@
         app:layout_constraintBottom_toTopOf="@+id/conversationRecyclerView"
         app:layout_constraintStart_toStartOf="parent"
         android:theme="@style/Widget.Session.ActionBar.Flat"
-        android:background="?colorPrimary"
+        android:background="@color/action_bar_background"
         app:contentInsetStart="0dp">
 
         <org.thoughtcrime.securesms.conversation.ConversationActionBarView
@@ -251,7 +251,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/blockedBanner"
-        android:background="@color/outdated_client_banner_background_color"
+        android:background="#DC143C"
         android:visibility="gone"
         tools:visibility="visible">
 

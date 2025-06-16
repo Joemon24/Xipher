@@ -5,13 +5,14 @@
 
     <TextView
         android:id="@+id/export_logs_button"
-        android:layout_gravity="center"
         style="@style/Widget.Session.Button.Common.Filled"
-        android:textStyle="bold"
-        android:text="@string/helpReportABugExportLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#000000"
         android:paddingHorizontal="@dimen/medium_spacing"
         android:paddingVertical="12dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:text="@string/helpReportABugExportLogs"
+        android:textStyle="bold" />
 
 </FrameLayout>

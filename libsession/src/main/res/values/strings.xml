@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Session</string>
+    <string name="app_name" translatable="false">Xipher</string>
     <string name="about">About</string>
     <string name="accept">Accept</string>
     <string name="accountIDCopy">Copy Account ID</string>
@@ -127,7 +127,7 @@
     <string name="blockBlockedDescription">Unblock this contact to send a message.</string>
     <string name="blockBlockedNone">No blocked contacts</string>
     <string name="blockBlockedUser">Blocked {name}</string>
-    <string name="blockDescription">Are you sure you want to block <b>{name}</b>? Blocked users cannot send you message requests, group invites or call you.</string>
+    <string name="blockDescription">Are you sure you want to block  <b>{name}</b>? Blocked users cannot send you message requests, group invites or call you.</string>
     <string name="blockUnblock">Unblock</string>
     <string name="blockUnblockName">Are you sure you want to unblock <b>{name}</b>?</string>
     <string name="blockUnblockNameMultiple">Are you sure you want to unblock <b>{name}</b> and <b>{count} others</b>?</string>

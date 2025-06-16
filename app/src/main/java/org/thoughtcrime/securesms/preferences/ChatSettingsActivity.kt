@@ -9,7 +9,7 @@ class ChatSettingsActivity : PassphraseRequiredActionBarActivity() {
     override fun onCreate(savedInstanceState: Bundle?, isReady: Boolean) {
         super.onCreate(savedInstanceState, isReady)
         setContentView(R.layout.activity_fragment_wrapper)
-        supportActionBar!!.title = resources.getString(R.string.sessionConversations)
+        supportActionBar?.title = getString(R.string.sessionConversations)
         val fragment = ChatsPreferenceFragment()
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragmentContainer, fragment)
