@@ -1,83 +1,51 @@
-# Repository Deprecated
-## This repository is now deprecated. However, Session Android is still actively developed [here](https://github.com/session-foundation/session-android). This is in line with announcements from [Session](https://getsession.org/blog/introducing-the-session-technology-foundation) and the [OPTF](https://optf.ngo/blog/the-optf-and-session), indicating that the OPTF has handed over the stewardship of the Session Project to the [Session Technology Foundation](https://session.foundation), a Swiss-based foundation dedicated to advancing digital rights and innovation.
+# Xipher Android
 
-# Session Android 
+🚀 **Xipher** is a privacy-first messaging app built as part of a college project, inspired by the principles and technology of the open-source [Session](https://getsession.org) app.
 
-[Download on the Google Play Store](https://getsession.org/android)
+It was created with the goal of learning and implementing secure communication methods — including anonymous messaging, decentralized-style routing, and end-to-end encryption — without using phone numbers, emails, or storing user data.
 
-Add the [F-Droid repo](https://fdroid.getsession.org/)
+---
 
-[Download the APK from here](https://github.com/oxen-io/session-android/releases/latest)
+## 🔐 Features
 
-## Summary
+- Anonymous account creation (no SIM, no email)
+- End-to-end encrypted messaging
+- Onion-routed message delivery style
+- Relay-based offline message storage
+- Clean, user-friendly UI
 
-Session integrates directly with [Oxen Service Nodes](https://docs.oxen.io/about-the-oxen-blockchain/oxen-service-nodes), which are a set of distributed, decentralized and Sybil resistant nodes. Service Nodes act as servers which store messages offline, and a set of nodes which allow for onion routing functionality obfuscating users' IP addresses. For a full understanding of how Session works, read the [Session Whitepaper](https://getsession.org/whitepaper).
+---
 
-<img src="https://i.imgur.com/wcdAGBh.png" width="320" />
+## 📦 Download
 
-## Want to contribute? Found a bug or have a feature request?
+- 📱 **APK**: [Download APK](https://gofile.io/d/r4ino3)  
+- 🌐 **Project Website**: [xipher-cyber-website.lovable.app](https://xipher-cyber-website.lovable.app)
 
-Please search for any [existing issues](https://github.com/oxen-io/session-android/issues) that describe your bugs in order to avoid duplicate submissions. Submissions can be made by making a pull request to our `dev` branch. If you don't know where to start contributing, try reading the Github issues page for ideas.
+> ⚠️ Note: This app is currently a project made for academic purposes and not intended for production use.
 
-## Build instructions
+---
 
-Build instructions can be found in [BUILDING.md](BUILDING.md).
+## 🙏 Acknowledgements
 
-## Translations
+Xipher was inspired by the amazing work done by the [Session](https://getsession.org) team.
 
-Want to help us translate Session into your language? You can do so at https://crowdin.com/project/session-android!
+Much respect and thanks to the developers and contributors of the [Session Android project](https://github.com/session-foundation/session-android) for making privacy-first messaging open-source and accessible. This project would not have been possible without their efforts.
 
-## Verifying signatures
+---
 
-**Step 1:**
+## ⚙️ Build Setup
 
+Standard Android Studio setup:
+
+```bash
+1. Clone the project
+2. Open in Android Studio
+3. Let Gradle sync dependencies
+4. Build and run on emulator or device (Min SDK: 21)
 ```
-wget https://raw.githubusercontent.com/oxen-io/oxen-core/master/utils/gpg_keys/KeeJef.asc
-gpg --import KeeJef.asc
-```
+## 📬 Contact
 
-**Step 2:**
+For feedback or academic discussion, visit the project page:
+👉 xipher-cyber-website.lovable.app
 
-Get the signed hash for this release. `SESSION_VERSION` needs to be updated for the release you want to verify.
-
-```
-export SESSION_VERSION=1.10.4
-wget https://github.com/oxen-io/session-android/releases/download/$SESSION_VERSION/signatures.asc
-```
-
-**Step 3:**
-
-Verify the signature of the hashes of the files.
-
-```
-gpg --verify signatures.asc 2>&1 |grep "Good signature from"
-```
-
-The command above should print "`Good signature from "Kee Jefferys...`". If it does, the hashes are valid but we still have to make the sure the signed hashes matches the downloaded files.
-
-**Step 4:**
-
-Make sure the two commands below returns the same hash. If they do, files are valid.
-
-```
-sha256sum session-$SESSION_VERSION-universal.apk
-grep universal.apk signatures.asc
-```
-
-## License
-
-Copyright 2011 Whisper Systems
-
-Copyright 2013-2017 Open Whisper Systems
-
-Copyright 2019-2021 The Oxen Project
-
-Licensed under the GPLv3: http://www.gnu.org/licenses/gpl-3.0.html
-
-## Socials
-<a href="https://twitter.com/session_app">
-  <img align="left" width="26px" src="https://www.vectorlogo.zone/logos/twitter/twitter-official.svg" />
-</a>
-<a href="mailto:support@getsession.org">
-  <img align="left" width="26px" src="https://www.vectorlogo.zone/logos/gmail/gmail-icon.svg" />
-</a>
+*Built with passion, privacy, and purpose.*
