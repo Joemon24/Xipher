@@ -46,6 +46,6 @@ Standard Android Studio setup:
 ## 📬 Contact
 
 For feedback or academic discussion, visit the project page:
-👉 xipher-cyber-website.lovable.app
+👉 https://xipher-cyber-website.lovable.app
 
 *Built with passion, privacy, and purpose.*
